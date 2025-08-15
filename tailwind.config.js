@@ -9,6 +9,9 @@ export default {
     colors:{
       'red':'#C90000',
       'yellow':'#FFC300',
+      'white':'#fff',
+      'black':'#323232',
+      'banana': '#FFF6A3',
       'gray-light':'#7D7C7C',
       'gray-high':'#504F4F',
     },

@@ -6,7 +6,7 @@ import Header from './Components/Header/Header'
 
 const App = () => {
   return (
-    <div className='px-[10rem] py-2'>
+    <div className='px-[10rem] py-2 max-xl:px-[1rem]'>
       <Header/>
     </div>
   )
