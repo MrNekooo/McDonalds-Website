@@ -1,9 +1,11 @@
+import MainHeader from "./MainHeader/MainHeader"
 import Navbar from "./Navbar/Navbar"
 
 const Header = () => {
   return (
-    <div className="font-poppins">
+    <div className="">
         <Navbar />
+        <MainHeader/>
     </div>
   )
 }
