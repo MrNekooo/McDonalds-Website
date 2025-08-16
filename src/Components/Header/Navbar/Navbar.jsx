@@ -38,8 +38,8 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-      <div className='relative '>
-        <Links  styles={`hidden max-lg:flex absolute ${burgerBtn ? "left-0" : "left-[-10rem]"} top-[-5rem] bg-white h-screen flex items-center flex-col gap-10 py-[5rem] px-6 transition-all delay-75 ease-in`}
+      <div className='relative z-40'>
+        <Links  styles={`hidden max-lg:flex absolute ${burgerBtn ? "left-[-1rem]" : "left-[-10rem]"} top-[-5rem] bg-white h-screen flex items-center flex-col gap-10 py-[5rem] px-6 transition-all delay-75 ease-in text-gray-light font-semibold`}
                 className="" />
       </div>
 

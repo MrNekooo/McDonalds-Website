@@ -50,9 +50,12 @@ const MainHeader = () => {
                   </button>
               </div>
               
-              <a href="#"><button className="flex items-center justify-center gap-3 bg-yellow px-[24px] py-[16px] rounded-[100px]" type="submit">
+              <a href="#"><button className="flex items-center justify-center gap-3 bg-yellow px-[24px] py-[16px] rounded-[100px] max-lg:rounded-[50px] max-lg:gap-1 max-lg:px-[15px]" 
+                                  type="submit">
                   <FaShoppingBasket />
-                  Order now
+                  <div className='max-lg:text-sm'>
+                    Order now
+                  </div>
               </button></a>
           </div>
           
@@ -60,7 +63,7 @@ const MainHeader = () => {
         
       </div>
 
-      <div className='absolute top-0 flex flex-col items-start justify-center left-[25rem] max-lg:left-[15rem] max-sm:relative max-sm:left-0'>
+      <div className='absolute top-[1rem] flex flex-col items-start justify-center left-[25rem] max-lg:left-[15rem] max-sm:relative max-sm:left-0'>
         <p className='flex items-center justify-center gap-2 text-lg text-gray-high'>
           <LuAlarmClock/> Delivery
         </p>
