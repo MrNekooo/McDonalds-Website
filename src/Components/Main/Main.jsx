@@ -1,7 +1,15 @@
+import Products from './Products/Products'
+import Sales from './Sales/Sales'
+import MobileAppSection from './MobileAppSection/MobileAppSection'
+
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <>
+        <Products/>
+        <Sales/>
+        <MobileAppSection/>
+    </>
   )
 }
 
