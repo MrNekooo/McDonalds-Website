@@ -1,7 +1,7 @@
 
-const Links = () => {
+const Links = ({styles}) => {
   return (
-    <ul className='flex items-center justify-center gap-[48px] font-semibold text-gray-light max-lg:hidden'>
+    <ul className={styles}>
             <li className='font-black text-red'> HomePage </li>
             <li > Menu </li>
             <li > Sale off </li>

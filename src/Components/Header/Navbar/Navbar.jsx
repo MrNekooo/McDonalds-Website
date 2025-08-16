@@ -13,13 +13,14 @@ const Navbar = () => {
   }
 
   return (
-    <>
+    <div className='relative'>
       <div className="flex items-center justify-between">
         <div className='flex items-center justify-center gap-[80px]'>
           <img  src={logo}
               alt='Logo Page'
               className='p-3 rounded-sm bg-red' />
-          <Links/>
+              
+          <Links styles="flex items-center justify-center gap-[48px] font-semibold text-gray-light max-lg:hidden"/>
         </div>
 
         <div className='flex items-center justify-center gap-[12px] font-normal'>
@@ -37,8 +38,12 @@ const Navbar = () => {
           </button>
         </div>
       </div>
+      <div className='relative '>
+        <Links  styles={`hidden max-lg:flex absolute ${burgerBtn ? "left-0" : "left-[-10rem]"} top-[-5rem] bg-white h-screen flex items-center flex-col gap-10 py-[5rem] px-6 transition-all delay-75 ease-in`}
+                className="" />
+      </div>
 
-    </>
+    </div>
   )
 }
 
