@@ -2,51 +2,57 @@
     "foods": [
         {
             "id": "1",
-            "image":"./Main/2.png",
+            "image":"/Main/2.png",
             "name": "Cheese Beef Hamburger",
             "contains": "fried chicken balls, french fries",
             "rating":"5",
-            "price": "5.39$"
+            "price": "5.39$",
+            "category": "hamburger"
         },
         {
             "id": "2",
-            "image":"./Main/1.png",
+            "image":"/Main/1.png",
             "name": "Combo funny",
             "contains": "fried chicken balls, french fries",
             "rating":"4.2",
-            "price": "10.3$"
+            "price": "10.3$",
+            "category": "friedchicken"
         },
         {
             "id": "3",
-            "image":"./Main/3.png",
+            "image":"/Main/3.png",
             "name": "Chicken with Spicy Sauce",
             "contains": "chili garlic sauce, black pepper sauce",
             "rating":"5",
-            "price": "7.2$"
+            "price": "7.2$",
+            "category": "friedchicken"
         },
         {
             "id": "4",
-            "image":"./Main/4.png",
+            "image":"/Main/4.png",
             "name": "Salad mixed vinegar",
             "contains": "Salad, vinegar, tomato",
             "rating":"3.8",
-            "price": "5.4$"
+            "price": "5.4$",
+            "category": "salad"
         },
         {
             "id": "5",
-            "image":"./Main/5.png",
+            "image":"/Main/5.png",
             "name": "Chicken burger",
             "contains": "fried chicken",
             "rating":"4.8",
-            "price": "5.39$"
+            "price": "5.39$",
+            "category": "friedchicken, hamburger"
         },
         {
             "id": "6",
-            "image":"./Main/6.png",
+            "image":"/Main/6.png",
             "name": "Lipton",
             "contains": "Cold Drink",
             "rating":"4.5",
-            "price": "2.8$"
+            "price": "2.8$",
+            "category": "drink"
         }
     ]
 }
