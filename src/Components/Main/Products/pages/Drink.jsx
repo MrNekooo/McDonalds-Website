@@ -1,27 +1,47 @@
-
+import { useState } from "react";
 import { useFoods } from "../FoodContext"
-
+import { FaShoppingBasket } from 'react-icons/fa'
 
 const Drink = () => {
 
   const foods = useFoods();
+
+  const [addToBasket, setAddToBasket] = useState(``);
+
+  function addedToBasket(name){
+    setAddToBasket(`${name} Added to Your Shapping Basket`)
+  }
 
   const drinks = foods.filter(food => 
     food.category && food.category.toLowerCase() === "drink"
   )
 
   return (
-    <div>
-      {drinks.map(food => (
-          <div key={food.id}>
-            <img src={food.image}/>
-            <h2> {food.name} </h2>
-            <p> {food.contains} </p>
-            <p> {food.rating} </p>
-            <p> {food.price} </p>
+    <>
+      <div className="mt-5 mb-5 font-semibold text-center text-red">
+        {addToBasket}
+      </div>
+      <div className="grid items-center justify-center grid-cols-3 gap-3 mt-5 place-items-center">
+        {drinks.map(food => (
+          <div  key={food.id}
+                className="">
+            <div className="w-[370px] max-h-[370px]">
+              <img  src={food.image}
+                    className="object-cover w-full h-full bg-center bg-no-repeat" />
+            </div>
+            <h2 className="mt-3 text-xl font-semibold"> {food.name} </h2>
+            <p className="font-normal"> {food.contains} </p>
+            <div className="flex items-center justify-between mt-5">
+              <p className="text-xl font-semibold"> {food.price} </p>
+              <button className="p-2 rounded-lg bg-red"
+                      onClick={() => addedToBasket(food.name)} > 
+                <FaShoppingBasket className="text-white"/> 
+              </button>
+            </div>
           </div>
-        ))}
-    </div>
+         ))}
+      </div>
+    </>
   )
 }
 
