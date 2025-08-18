@@ -16,7 +16,7 @@ function linkClasses (item){
 
 
 return (
-    <div className='text-gray-high text-[16px] flex items-center gap-5'>
+    <div className='text-gray-high text-[16px] flex items-center gap-5 max-[800px]:overflow-x-auto max-[800]px:whitespace-nowrap hide-scrollbar'>
         <Link   to={"/"}
                 className={`flex items-center gap-2 w-fit px-5 py-2 rounded-[100px] ${linkClasses("best")}`}
                 onClick={() => setSelectedItem("best")} > 

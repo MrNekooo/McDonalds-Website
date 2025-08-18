@@ -21,7 +21,7 @@ const Drink = () => {
       <div className="mt-5 mb-5 font-semibold text-center text-red">
         {addToBasket}
       </div>
-      <div className="grid items-center justify-center grid-cols-3 gap-3 mt-5 place-items-center">
+      <div className="grid items-center justify-center grid-cols-3 gap-3 mt-5 place-items-center max-2xl:grid-cols-2 max-[800px]:grid-cols-1">
         {drinks.map(food => (
           <div  key={food.id}
                 className="">

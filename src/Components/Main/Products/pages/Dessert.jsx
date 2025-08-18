@@ -20,11 +20,11 @@ const Dessert = () => {
       <div className="mt-5 mb-5 font-semibold text-center text-red">
         {addToBasket}
       </div>
-      <div className="grid items-center justify-center grid-cols-3 gap-3 mt-5 place-items-center">
+      <div className="grid items-center justify-center grid-cols-3 gap-3 mt-5 place-items-center max-2xl:grid-cols-2 max-[800px]:grid-cols-1">
         {desserts.map(food => (
           <div  key={food.id}
                 className="">
-            <div className="w-[370px] max-h-[370px]">
+            <div className="w-[370px] max-h-[370px] sm:w-[340px]">
               <img  src={food.image}
                     className="object-cover w-full h-full bg-center bg-no-repeat" />
             </div>
