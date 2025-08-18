@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import Products from './Products/Products'
-// import Sales from './Sales/Sales'
+import Sales from './Sales/Sales'
 // import MobileAppSection from './MobileAppSection/MobileAppSection'
 
 import BestSeller from './Products/pages/BestSeller'
@@ -14,8 +14,8 @@ import FoodProvider from './Products/FoodContext'
 const Main = () => {
   return (
     <>
-        <h2 className='text-[48px] font-semibold text-red'>Menu</h2>
         <FoodProvider>
+        <h2 className='text-[48px] font-semibold text-red'>MENU</h2>
           <div>
             <Products/>
             <div>
@@ -28,8 +28,13 @@ const Main = () => {
               </Routes>
             </div>
           </div>
+          <p className='mt-6 text-center'> See all </p>
+          
+          <div className='mt-24 '> 
+            <h2 className='text-[48px] font-semibold text-red text-center mb-4'>SALE OFF</h2>
+            <Sales/>
+          </div>
         </FoodProvider>
-        {/* <Sales/> */}
         {/* <MobileAppSection/> */}
     </>
   )

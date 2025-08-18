@@ -7,7 +7,8 @@
             "contains": "fried chicken balls, french fries",
             "rating":"5",
             "price": "5.39$",
-            "category": "hamburger"
+            "category": "hamburger",
+            "sale": "false"
         },
         {
             "id": "2",
@@ -16,7 +17,9 @@
             "contains": "fried chicken balls, french fries",
             "rating":"4.2",
             "price": "10.3$",
-            "category": "friedchicken"
+            "category": "friedchicken",
+            "sale": "true",
+            "discount": "10"
         },
         {
             "id": "3",
@@ -25,7 +28,8 @@
             "contains": "chili garlic sauce, black pepper sauce",
             "rating":"5",
             "price": "7.2$",
-            "category": "friedchicken"
+            "category": "friedchicken",
+            "sale": "false"
         },
         {
             "id": "4",
@@ -34,7 +38,9 @@
             "contains": "Salad, vinegar, tomato",
             "rating":"3.8",
             "price": "5.4$",
-            "category": "salad"
+            "category": "salad",
+            "sale": "true",
+            "discount": "10"
         },
         {
             "id": "5",
@@ -43,7 +49,9 @@
             "contains": "fried chicken",
             "rating":"4.8",
             "price": "5.39$",
-            "category": "friedchicken"
+            "category": "friedchicken",
+            "sale": "true",
+            "discount": "10"
         },
         {
             "id": "6",
@@ -52,7 +60,8 @@
             "contains": "Cold Drink",
             "rating":"4.5",
             "price": "2.8$",
-            "category": "drink"
+            "category": "drink",
+            "sale": "false"
         }
     ]
 }
