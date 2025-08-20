@@ -11,7 +11,6 @@ const Cards = () => {
     return (
         <div className="flex flex-wrap items-center justify-center gap-1">
             {sales.map(food => {
-                // تبدیل price و discount به عدد
                 const priceNumber = Number(food.price.replace('$', ''))
                 const discountNumber = Number(food.discount || 0)
                 const discountedPrice = (priceNumber - Math.floor(priceNumber * discountNumber / 100)).toFixed(2) + '$'
