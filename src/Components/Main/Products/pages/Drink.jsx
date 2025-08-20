@@ -25,7 +25,7 @@ const Drink = () => {
         {drinks.map(food => (
           <div  key={food.id}
                 className="">
-            <div className="w-[370px] max-h-[370px]">
+            <div className="max-w-[370px] max-h-[370px]">
               <img  src={food.image}
                     className="object-cover w-full h-full bg-center bg-no-repeat" />
             </div>
