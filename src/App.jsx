@@ -4,7 +4,6 @@ import { Routes, Route } from 'react-router-dom'
 
 import Header from './Components/Header/Header'
 import Main from './Components/Main/Main'
-import FoodProvider from './Components/Main/Products/FoodContext'
 
 const App = () => {
   return (

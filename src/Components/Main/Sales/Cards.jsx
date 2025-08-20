@@ -17,7 +17,7 @@ const Cards = () => {
 
                 return (
                     <div key={food.id} className="flex items-center justify-center p-5 overflow-hidden bg-red rounded-3xl">
-                        <div key={food.id} className="flex flex-col items-start p-4 mb-6 rounded-lg">
+                        <div className="flex flex-col items-start p-4 mb-6 rounded-lg">
                             <h2 className="mb-1 text-3xl font-bold text-yellow max-sm:text-2xl">{food.name}</h2>
                             <p className="mb-2 text-sm text-white">{food.contains}</p>
                             <div className="flex items-center gap-2 mb-2">
