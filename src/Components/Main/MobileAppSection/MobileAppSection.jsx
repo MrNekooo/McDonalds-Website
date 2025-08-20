@@ -1,8 +1,12 @@
-
+import MobilePicture from '../../../assets/MobilePicture.png'
 
 const MobileAppSection = () => {
   return (
-    <div>MobileAppSection</div>
+    <div>
+      <div>
+        <img src={MobilePicture} />
+      </div>
+    </div>
   )
 }
 
