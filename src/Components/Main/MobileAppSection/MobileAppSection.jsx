@@ -21,14 +21,14 @@ const MobileAppSection = () => {
           <button type='submit' className='flex items-center justify-center gap-2 px-4 py-2 text-white bg-gray-high rounded-[50px]'>
             <FaApple className='max-w-6 max-h-6'/>
             <div className='flex flex-col items-start '>
-              <p className='text-[14px] font-light'> Download on the </p>
+              <p className='text-[14px] font-light max-sm:text-[10px]'> Download on the </p>
               <p className='text-[16px] font-medium'> App Store </p>
             </div>
           </button>
           <button type='submit' className='flex items-center justify-center gap-2 px-4 py-2 text-white bg-gray-high rounded-[50px]'>
             <FaGooglePlay className='max-w-6 max-h-6'/>
             <div className='flex flex-col items-start '>
-              <p className='text-[14px] font-light'> Download on the </p>
+              <p className='text-[14px] font-light max-sm:text-[10px]'> Download on the </p>
               <p className='text-[16px] font-medium'> Google Play </p>
             </div>
           </button>
