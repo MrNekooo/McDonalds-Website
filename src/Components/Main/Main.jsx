@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import Products from './Products/Products'
 import Sales from './Sales/Sales'
-// import MobileAppSection from './MobileAppSection/MobileAppSection'
+import MobileAppSection from './MobileAppSection/MobileAppSection'
 
 import BestSeller from './Products/pages/BestSeller'
 import Hamburger from './Products/pages/Hamburger'
@@ -35,7 +35,7 @@ const Main = () => {
             <Sales/>
           </div>
         </FoodProvider>
-        {/* <MobileAppSection/> */}
+        <MobileAppSection/>
     </>
   )
 }
