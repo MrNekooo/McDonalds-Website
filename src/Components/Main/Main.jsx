@@ -9,6 +9,7 @@ import Drink from './Products/pages/Drink'
 import Dessert from './Products/pages/Dessert'
 import FriedChicken from './Products/pages/FriedChicken'
 import FoodProvider from './Products/FoodContext'
+import StoreInput from './StoreInput/StoreInput'
 
 
 const Main = () => {
@@ -36,6 +37,7 @@ const Main = () => {
           </div>
         </FoodProvider>
         <MobileAppSection/>
+        <StoreInput/>
     </>
   )
 }
