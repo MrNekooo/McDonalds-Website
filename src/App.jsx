@@ -13,6 +13,9 @@ const App = () => {
         <Header/>
         <Main/>
         <Footer/>
+        <p className='mt-8 text-[12px] text-center text-gray-high'> 
+          CopyRight &copy;Nekooo {new Date().getFullYear()} 
+        </p>
       </div>
     </>
   )
