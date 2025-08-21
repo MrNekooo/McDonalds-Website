@@ -14,6 +14,9 @@ export default {
       'banana': '#FFF6A3',
       'gray-light':'#7D7C7C',
       'gray-high':'#504F4F',
+      'twitter':'#1DA1F2',
+      'facebook':'#1877F2',
+      'messager':'#0099FF',
     },
     fontFamily:{
       poppins : ["poppins", "sans-serif"]
