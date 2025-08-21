@@ -17,6 +17,7 @@ export default {
       'twitter':'#1DA1F2',
       'facebook':'#1877F2',
       'messager':'#0099FF',
+      // Nekooo
     },
     fontFamily:{
       poppins : ["poppins", "sans-serif"]
