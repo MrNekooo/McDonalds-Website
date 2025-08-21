@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 
 import Header from './Components/Header/Header'
 import Main from './Components/Main/Main'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <div className='px-[10rem] py-2 max-xl:px-[1rem] relative font-poppins'>
         <Header/>
         <Main/>
+        <Footer/>
       </div>
     </>
   )
